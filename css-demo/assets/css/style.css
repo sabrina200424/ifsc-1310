@@ -8,6 +8,51 @@ Colors - #8C4A32
 */ 
 
 body {
-    background-color: honeydew;
+    background-color: #ebe9eb
 }
 
+html {
+    box-sizing: border-box;
+  }
+  *:before
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  
+  .container {
+    width: 95wv;
+    max-width: 1120px;
+    margin: 80px auto;
+  }
+
+  .container {
+    background-color: #797b84;
+    
+  }
+
+  header.primary {
+    font-size:large
+  }
+
+header.primary h1 {
+text-align: center;
+margin-top: 60px;
+background-color: #02182b;
+color:#FFF;
+text-decoration:none;
+}
+
+/*I have no clue why the underline thing didn't work*/
+
+header.primary h1 a {
+    color:#FFF
+}
+
+.container {
+text-align: center;
+}
