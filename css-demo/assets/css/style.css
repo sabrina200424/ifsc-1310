@@ -32,6 +32,7 @@ html {
 
   .container {
     background-color: #797b84;
+    color: #FFF;
     
   }
 
@@ -40,19 +41,47 @@ html {
   }
 
 header.primary h1 {
+border-radius: 0cap;
 text-align: center;
+box-shadow: #02182b;
 margin-top: 60px;
 background-color: #02182b;
 color:#FFF;
 text-decoration:none;
+padding-left: 15px;
 }
 
-/*I have no clue why the underline thing didn't work*/
-
 header.primary h1 a {
+  padding-top: 20px;
+  padding-bottom: 20px;
     color:#FFF
 }
 
+header.primary h1 a {
+  text-decoration: none;
+}
 .container {
 text-align: center;
+}
+
+header.primary nav ul {
+  padding: 20px;
+  border-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+header.primary h2 {
+  align-items: center;
+}
+
+header.primary nav ul li a {
+  color: #FFF;
+  background-color: cadetblue;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-around;
+  align-content: center;
 }
