@@ -77,7 +77,13 @@ header.primary nav ul {
 }
 
 header.primary h2 {
-  align-items: center;
+  text-align: center;
+  background-color: darkgrey;
+  text-shadow: #02182b;
+  color: #3E567C;
+  border-radius: 20px 20px 20px 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 header.primary nav ul li a {
@@ -88,4 +94,5 @@ header.primary nav ul li a {
   justify-content: space-around;
   align-content: center;
 }
+
 
