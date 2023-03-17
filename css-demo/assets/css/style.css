@@ -73,7 +73,6 @@ header.primary nav ul a {
   background-color: #768798;
   color: #FFF;
   display: flex;
-  text-decoration: none;
   flex-direction: column;
   list-style-type: none;
   text-align: center;
@@ -96,7 +95,9 @@ header.primary h2 {
   color: #FFF;
 }
 
-
+header.primary nav ul li {
+list-style-type: none;
+}
 
 
 footer h6 {
@@ -104,4 +105,8 @@ footer h6 {
   background-color: lightslategrey;
   color: aliceblue;
   padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-shadow: #02182b;
 }
