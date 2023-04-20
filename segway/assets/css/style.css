@@ -1,0 +1,66 @@
+header nav ul a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /*fix this later */
+    text-decoration: none;
+    color: white;
+    background-color: #181240;
+    padding: 25px;
+    list-style-type: none;
+    max-width: 1400px;
+    
+}
+
+/*color pallete colors
+#9E82D9 lightest purple
+#181240 darkest purple shade
+#5545BF neon purple
+#41358C medium purple shade
+#B3C3F2 light blue
+*/
+
+
+header.primary nav ul a { 
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tagline {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#181240, #41358C);
+    color: white;
+    padding: 15px;
+}
+
+
+
+section.container h3 {
+    background-color: #41358C;
+    background-image: linear-gradient(#5545BF, #41358C);
+    color: white;
+    text-size-adjust: 36px;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+
+}
+
+.container {
+    width: 140wv;
+    max-width: 1200px;
+    margin: 80px auto;
+  }
+
+
+
+#first {
+   background-color: #9E82D9;
+   padding: 22px;
+
+}
