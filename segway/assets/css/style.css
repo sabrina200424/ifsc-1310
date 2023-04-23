@@ -30,6 +30,7 @@ header nav ul {
 #DED0F2 potential text color
 #D2BBF2 Light purple
 #8E6BBF Purple shade
+#1A5173 Dark Blue
 */
 
 
@@ -91,4 +92,25 @@ section.container h3 {
 #pic {
     display: flex;
     justify-content: center;
+}
+
+#second {
+    background-image: linear-gradient(#1A5173,#2D83A6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+}
+
+#list {
+    background-color:#0378A6;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+    border-radius: 6px;
+    align-content: center;
 }
