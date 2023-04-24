@@ -48,7 +48,7 @@ body {
     background-color: #EDE9F2
 }
 
-#tagline {
+.tagline {
     display: flex;
     justify-content: center;
     background-image: linear-gradient(#181240, #41358C);
@@ -56,7 +56,7 @@ body {
     padding: 15px;
 }
 
-#logo {
+.logo {
     display: flex;
     justify-content: center;
 }
@@ -83,7 +83,12 @@ section.container h3 {
 
 
 
-#first {
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80wv;
+    max-width: 1200px;
    background-color: #8E6BBF;
    padding: 22px;
    color: white;
@@ -91,27 +96,32 @@ section.container h3 {
 
 }
 
-#question {
+.question {
+    background-image: linear-gradient(#5545BF, #41358C);
     display: flex;
     justify-content: center;
+    max-width: 1200px;
     color: white;
-    border-radius: 2px;
+    border-radius: 6px;
+    padding: 22px;
+    font-size: 1.2rem;
 }
 
-#pic {
+.pic {
     display: flex;
     justify-content: center;
 }
 
-#second {
+.second {
     background-image: linear-gradient(#1A5173,#2D83A6);
     color: white;
     display: flex;
     justify-content: center;
     padding: 22px;
+    border-radius: 4px;
 }
 
-#list {
+.list {
     background-color:#0378A6;
     color: white;
     text-decoration: none;
@@ -124,7 +134,7 @@ section.container h3 {
     align-content: center;
 }
 
-#images {
+.images {
     background-color: #8E6BBF;
    padding: 22px;
    color: white;
@@ -140,4 +150,14 @@ section.container h3 {
     justify-content: center;
     padding: 14px;
     max-width: 1400px;
+}
+
+.back-to-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-to-top a {
+    color: #2D83A6;
+    text-decoration: none;
 }
