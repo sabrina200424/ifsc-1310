@@ -9,6 +9,7 @@ header nav ul a {
     list-style-type: none;
     max-width: 1400px;
     border-radius: 15px;
+    font-size: 1.5rem;
     
 }
 
@@ -17,9 +18,13 @@ header nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
    
 }
 
+header.primary nav ul li a:hover {
+    background: rgba(0.8, 0, 0, 0.8); 
+}
 
 /*color pallete colors
 #9E82D9 lightest purple
@@ -113,4 +118,21 @@ section.container h3 {
     padding-left: 25px;
     border-radius: 6px;
     align-content: center;
+}
+
+#images {
+    background-color: #8E6BBF;
+   padding: 22px;
+   color: white;
+   border-radius: 6px;
+   display: flex;
+   justify-content: center;
+}
+
+#footer {
+    background-color: #181240;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
 }
