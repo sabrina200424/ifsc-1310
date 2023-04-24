@@ -9,7 +9,7 @@ header nav ul a {
     list-style-type: none;
     max-width: 1400px;
     border-radius: 15px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     
 }
 
@@ -87,9 +87,10 @@ section.container h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80wv;
-    max-width: 1200px;
+    max-width: 1190px;
+    margin: 1em;
    background-color: #8E6BBF;
+   padding-left: 6px;
    padding: 22px;
    color: white;
    border-radius: 6px;
