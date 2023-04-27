@@ -17,7 +17,7 @@ body {
     margin: 80px auto;
   }
 
-  #title {
+  .title {
     color: #183240;
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@ body {
     padding-top: 40px;
   }
 
-  #position {
+  .position {
     display: flex;
     justify-content: center;
     color: #205b80;
@@ -39,6 +39,23 @@ body {
     text-decoration: none;
   }
 
+  .paragraph {
+    display: flex;
+    justify-content: center;
+    color: #205b80;
+    font-size: 22px;
+  }
+
   header.primary nav ul {
     list-style-type: none;
+  }
+
+  .writing {
+    display: flex;
+    justify-content: center;
+    color: #205b80;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+
   }
