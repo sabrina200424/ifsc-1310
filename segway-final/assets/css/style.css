@@ -4,13 +4,12 @@ header nav ul a {
     justify-content: space-evenly; /*fix this later */
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(#41358C, #181240);
+    background-image: linear-gradient(#07B0F2,#07C7F2);
     padding: 20px;
     list-style-type: none;
     max-width: 1400px;
     border-radius: 15px;
-    font-size: 1.8rem;
-    
+    font-size: 1.8rem;   
 }
 
 header nav ul {
@@ -26,7 +25,7 @@ header.primary nav ul li a:hover {
     background: rgba(0.8, 0, 0, 0.8); 
 }
 
-/*color pallete colors
+/*color pallete colors (old)
 #9E82D9 lightest purple
 #181240 darkest purple shade
 #5545BF neon purple
@@ -38,6 +37,18 @@ header.primary nav ul li a:hover {
 #1A5173 Dark Blue
 */
 
+/*New color pallete colors
+#062A40 Dark blue
+#011126 Dark Blue 2
+#0E4C73 Navy blue
+#0F5FA6 Medium Blue
+#07B0F2 Neon 1
+#07C7F2 Neon 2
+#2AA4BF Blue
+#49E1F2 Aqua
+#4BF2F2 Turquoise 
+*/
+
 
 header.primary nav ul a { 
     text-decoration: none;
@@ -45,13 +56,13 @@ header.primary nav ul a {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #EDE9F2
+    background-color: #011126
 }
 
 .tagline {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(#181240, #41358C);
+    background-color: #04a0dd;
     color: white;
     padding: 15px;
 }
@@ -59,12 +70,12 @@ body {
 .logo {
     display: flex;
     justify-content: center;
+    padding-bottom: 14px;
 }
 
 
 section.container h3 {
-    background-color: #41358C;
-    background-image: linear-gradient(#5545BF, #41358C);
+    background-color: #07B0F2;
     color: white;
     text-size-adjust: 36px;
     padding: 22px;
@@ -89,7 +100,7 @@ section.container h3 {
     align-items: center;
     max-width: 1190px;
     margin: 1em;
-   background-color: #8E6BBF;
+   background-color: #062A40;
    padding-left: 6px;
    padding: 22px;
    color: white;
@@ -98,7 +109,7 @@ section.container h3 {
 }
 
 .question {
-    background-image: linear-gradient(#5545BF, #41358C);
+    background-color: #07B0F2;
     display: flex;
     justify-content: center;
     max-width: 1200px;
@@ -111,22 +122,32 @@ section.container h3 {
 .pic {
     display: flex;
     justify-content: center;
+    padding: 14px;
 }
 
 .second {
-    background-image: linear-gradient(#1A5173,#2D83A6);
+    background-color:#07B0F2;
     color: white;
     display: flex;
     justify-content: center;
-    padding: 22px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.caption {
+    background-color:#49E1F2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
     border-radius: 4px;
 }
 
 .list {
-    background-color:#0378A6;
+    background-color: #062A40;
     color: white;
-    text-decoration: none;
-    list-style-type: none;
+    max-width: 1190px;
+    margin: 1em;
     padding: 22px;
     display: flex;
     justify-content: center;
@@ -136,7 +157,7 @@ section.container h3 {
 }
 
 .images {
-    background-color: #8E6BBF;
+    background-color: #062A40;
    padding: 22px;
    color: white;
    border-radius: 6px;
@@ -144,8 +165,12 @@ section.container h3 {
    justify-content: center;
 }
 
+.images a {
+    color: white;
+}
+
 #footer {
-    background-color: #181240;
+    background-color: #037baa;
     color: white;
     display: flex;
     justify-content: center;
@@ -159,7 +184,12 @@ section.container h3 {
 }
 
 .back-to-top a {
-    color: #2D83A6;
+    color: white;
     text-decoration: none;
 }
 
+#wufoo-z14bac0e1wczhce {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
