@@ -193,3 +193,8 @@ section.container h3 {
     justify-content: center;
     padding: 80px;
 }
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
